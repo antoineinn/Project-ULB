@@ -1,0 +1,10 @@
+Convention pour le projet : 
+
+-Nommage:
+    1) Nom de variables, de fonctions et de classes en anglais.
+    2) Chaque variables/fonctions  composé de plusieurs mot suivra la Convention CamelCase et commencera par une minuscule. Exemple: myVariable
+    3) Chaque classe commencera par une majusculet et suivra elle aussi la Convention CamelCase. Exemple: MyClass
+
+-Autre:
+    1) Commentaires en FR ou ANG à voir
+    2) Bien découper le code entre .hpp et .cpp

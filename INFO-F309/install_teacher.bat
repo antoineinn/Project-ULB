@@ -1,0 +1,1 @@
+\\WIN-OFNN8US8KH3\veyon\veyon-4.0.2.0-win64-setup.exe /S /ApplyConfig=\\WIN-OFNN8US8KH3\veyon\config_teacher.json

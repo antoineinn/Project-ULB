@@ -1,0 +1,4 @@
+all : test
+
+test : 
+	g++-6 test.cpp -o main -lncurses

@@ -1,0 +1,38 @@
+STD = -std=c++11
+FILES = client.c
+FILES2 = menu.cpp
+FILES3 = MyWrapper.cpp
+FILES4 = matchwrapper.cpp
+FILES5 = Lobby.cpp
+FILES6 = Matchmaking.cpp
+FILES7 = server.c matchwrapper matchmaking lobby
+FILES8 = Matchmaking.o Lobby.o client MyWrapper matchwrapper menu
+all: etape1 etape2 etape3 etape4 etape5 etape6 etape7 etape8
+
+etape1: $(FILES)
+	gcc -c $(FILES)  -o client
+	
+etape2: $(FILES2)
+	g++ -c $(FILES2)  -o menu
+
+etape3: $(FILES3)
+	g++ -c $(FILES3)  -o MyWrapper
+
+etape4:
+	g++ $(STD) -c $(FILES4) -o matchwrapper
+
+etape5: $(FILES5)
+	g++ $(STD) -c $(FILES5) -o lobby
+
+etape6: $(FILES6)
+	g++ $(STD) -c $(FILES6) -o matchmaking
+
+etape7: $(FILES7)
+	g++ $(STD) $(FILES7) -lpthread -o server
+
+etape8: $(FILES8)
+	g++ $(FILES8) -o main
+
+clean:
+	RM *.o
+	RM *gch

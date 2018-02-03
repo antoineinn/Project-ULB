@@ -1,0 +1,8 @@
+install teacher:
+psexec \\DESKTOP-TEACHER -u SCHOOL\Administrator -p Admin1 -h -i cmd /c "\\WIN-OFNN8US8KH3\veyon\install_teacher.bat"
+
+uninstall teacher:
+psexec \\DESKTOP-TEACHER -u SCHOOL\Administrator -p Admin1 -h -i cmd /c "\\WIN-OFNN8US8KH3\veyon\uninstall_veyon.bat"
+
+install student:
+psexec \\DESKTOP-SAJQ5JO -u SCHOOL\Administrator -p Admin1 -h -i cmd /c "\\WIN-OFNN8US8KH3\veyon\install_student.bat"

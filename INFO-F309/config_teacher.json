@@ -1,0 +1,83 @@
+{
+    "AccessControl": {
+        "AuthorizedUserGroups": [
+        ]
+    },
+    "Authentication": {
+        "KeyAuthenticationEnabled": "true",
+        "LogonAuthenticationEnabled": "true",
+        "PrivateKeyBaseDir": "\\\\win-ofnn8us8kh3\\veyon\\keys\\",
+        "PublicKeyBaseDir": "\\\\win-ofnn8us8kh3\\veyon\\keys\\"
+    },
+    "Demo": {
+        "FramebufferUpdateInterval": 100,
+        "KeyFrameInterval": 10,
+        "MemoryLimit": 128
+    },
+    "Directories": {
+        "Screenshots": "$APPDATA\\Screenshots",
+        "UserConfiguration": "$APPDATA\\Config"
+    },
+    "ExternalVncServer": {
+        "ServerPort": 5900
+    },
+    "LDAP": {
+        "ServerPort": 389
+    },
+    "LocalData": {
+        "NetworkObjects": {
+            "JsonStoreArray": [
+                {
+                    "Name": "Room1",
+                    "Type": 2,
+                    "Uid": "{e718c1a8-6125-4b0c-81a8-9cac603a0f13}"
+                },
+                {
+                    "HostAddress": "DESKTOP-SAJQ5JO",
+                    "MacAddress": "08:00:27:CA:DC:35",
+                    "Name": "STUDENT-PC1",
+                    "ParentUid": "{e718c1a8-6125-4b0c-81a8-9cac603a0f13}",
+                    "Type": 3,
+                    "Uid": "{67564086-f640-4c84-8a0b-42379fe5e200}"
+                }
+            ]
+        }
+    },
+    "Logging": {
+        "LogFileDirectory": "$TEMP",
+        "LogFileRotationCount": 10,
+        "LogFileRotationEnabled": "false",
+        "LogFileSizeLimit": 100,
+        "LogFileSizeLimitEnabled": "false",
+        "LogLevel": 4,
+        "LogToStdErr": "true",
+        "LogToWindowsEventLog": "false"
+    },
+    "Network": {
+        "DemoServerPort": 11400,
+        "FeatureWorkerManagerPort": 11300,
+        "FirewallExceptionEnabled": "1",
+        "PrimaryServicePort": 11100,
+        "VncServerPort": 11200
+    },
+    "NetworkObjectDirectory": {
+        "UpdateInterval": 60
+    },
+    "Service": {
+        "Arguments": "",
+        "Autostart": "true",
+        "HideTrayIcon": "false",
+        "SoftwareSASEnabled": "1"
+    },
+    "UI": {
+        "ApplicationName": "",
+        "EnableHighDPIScaling": "false",
+        "Language": ""
+    },
+    "UltraVNC": {
+        "CaptureLayeredWindows": "true",
+        "Configured": "true",
+        "LowAccuracy": "true",
+        "PollFullScreen": "true"
+    }
+}

@@ -1,0 +1,1 @@
+"C:\Program Files\Veyon\uninstall.exe" /S

@@ -1,0 +1,1 @@
+Voici le squelette du code du diagramme de classe.

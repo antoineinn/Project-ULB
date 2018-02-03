@@ -1,0 +1,52 @@
+Remarques sur le SRD : 
+
+- Navigateur Web ? -> Suppression
+
+- Definition tower defense + orthographe
+
+- Spécifier la façon d'ajouter les amis
+
+- Pas besoin d'inclure le serveur dans les use case et dans le SRD en générale
+  Attention à spécifier les besoins des 2 côtés
+
+- Expliciter les préconditions etc dans les uses case
+
+- Nouveau use case pour spécifier le lancement de la partie, ne pas le mettre dans celui pour le menu
+
+- Faire attention à mettre les images avant les textes
+
+- Diagrammes d'activité 2.1.3 : Titre + changement
+
+- Titre des use case : pas 1er, 2ème etc mais en jeu, hors jeu etc
+
+- Spectateur présent dans les use case 
+
+- Taille de l'image UML
+
+- Mot de passe invalide ? A spécifier dans le use case
+
+- Un user peut être un ghest, à spécifier dans le 1er use case
+
+- User à supprimer côté use case système, mais pas le serveur
+
+- Besoin non fonctionnel : à préciser. Ne pas hésiter à regarder les anciens SRD de Keno
+
+- Diagramme UML à refaire : Multiplicité, texte explicatif, rajout du client, scinder player/client, attention au serveur qui
+  sera surement connecté à plus de chose que prévu
+
+- Index LateX
+
+- Diagramme de séquence à rajouter pour montrer qu'on sait en faire
+
+
+Remarque sur la façon de faire le proje: 
+
+- Présentation console < Fonctionnalités
+
+- Tout l'monde participe à tout
+
+- Qualité du code > all -> AMI grosse révision
+
+- Ne pas oublier d'envoyer un mail pour les rdv hebdomadaires
+
+
